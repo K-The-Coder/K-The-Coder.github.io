@@ -1,0 +1,9 @@
+# Auto generated files
+file.txt
+log.txt.txt
+
+# Static files
+images/img.jpeg
+
+# Auto generated dirs
+AutoGen/*
