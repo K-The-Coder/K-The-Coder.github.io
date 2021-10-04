@@ -1,3 +1,21 @@
 body{
     font-family:sans-serif;
 }
+
+.intro{
+    border-radius: 25px;
+    margin: auto;
+    width: 700px;
+    height: 340px;
+    padding: 10px;
+    background-color: rgb(211, 115, 36);
+}
+
+.contact-details{
+    border-radius: 25px;
+    margin: auto;
+    width: 700px;
+    height: 150px;
+    padding: 10px;
+    background-color: rgb(255, 187, 0);
+}
