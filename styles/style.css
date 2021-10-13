@@ -104,7 +104,7 @@ p, ul{font-size: 25px;}
     .intro{
         border-radius: 10px;
         margin: auto;
-        width: 350px;
+        width: 330px;
         height: 740px;
         padding: 10px;
         background-color: rgb(211, 115, 36);
@@ -113,14 +113,19 @@ p, ul{font-size: 25px;}
     .contact-details{
         border-radius: 10px;
         margin: auto;
-        width: 350px;
+        width: 330px;
         height: 300px;
         padding: 10px;
         background-color: rgb(255, 187, 0);
     }
 
-    .contact-me{
-        font-size: 20px;
+    .contact-me{font-size: 20px;}
+
+    .social-media a{
+        padding: 20px;
+        font-size: 2rem;
+        width: 20%;
+        margin-bottom: 100px;
     }
 }
 
