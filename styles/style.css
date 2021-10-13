@@ -102,21 +102,25 @@ p, ul{font-size: 25px;}
     .mobile-nav-bar a:hover{color:rgb(255, 187, 0)}
 
     .intro{
-        border-radius: 25px;
+        border-radius: 10px;
         margin: auto;
-        width: 740px;
-        height: 630px;
+        width: 350px;
+        height: 740px;
         padding: 10px;
         background-color: rgb(211, 115, 36);
     }
 
     .contact-details{
-        border-radius: 25px;
+        border-radius: 10px;
         margin: auto;
-        width: 740px;
+        width: 350px;
         height: 300px;
         padding: 10px;
         background-color: rgb(255, 187, 0);
+    }
+
+    .contact-me{
+        font-size: 20px;
     }
 }
 
