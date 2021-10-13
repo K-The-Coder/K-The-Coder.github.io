@@ -1,21 +1,122 @@
 body{
     font-family:sans-serif;
+    margin: 0;
 }
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(211, 115, 36);
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    padding: 20px 0 10px 0;
+    margin-bottom: 40px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#mobile-nav{
+    display: none;
+}
+
+.nav-bar a{
+    color: rgb(0,0,0);
+    font-size: 30px;
+    height: 40px;
+    text-decoration: none;
+    padding: 40px 100px 40px 100px;
+}
+.nav-bar a:hover{color:rgb(255, 187, 0);}
+
+h3, h2{font-size: 31px;}
 
 .intro{
     border-radius: 25px;
     margin: auto;
-    width: 700px;
-    height: 360px;
+    width: 1000px;
+    height: 600px;
     padding: 10px;
     background-color: rgb(211, 115, 36);
 }
 
+p, ul{font-size: 25px;}
+
 .contact-details{
     border-radius: 25px;
     margin: auto;
-    width: 700px;
-    height: 150px;
+    width: 1000px;
+    height: 300px;
     padding: 10px;
     background-color: rgb(255, 187, 0);
 }
+
+.fa-envelope, .fa-phone, .fa-users{ padding-right: 20px; }
+
+.fa-users{ padding-right: 14px; }
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 20%;
+    margin-bottom: 100px;
+}
+
+.fa-facebook, .fa-github, .fa-linkedin{ color: black;}
+
+/* Mobile styling */
+@media only screen and (max-width: 1080px){
+    #nav{
+        display: none;
+    }
+
+    #mobile-nav{
+        display: block;
+        margin: 0;
+    }
+
+    .mobile-nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgb(211, 115, 36);
+        margin: 0px;
+        padding: 20px 0 10px 0;
+        margin-bottom: 40px;
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    .mobile-nav-bar a{
+        color: rgb(0,0,0);
+        font-size: 30px;
+        height: 40px;
+        text-decoration: none;
+        padding: 4px 20px 4px 10px;
+    }
+
+    .mobile-nav-bar a:hover{color:rgb(255, 187, 0)}
+
+    .intro{
+        border-radius: 25px;
+        margin: auto;
+        width: 740px;
+        height: 630px;
+        padding: 10px;
+        background-color: rgb(211, 115, 36);
+    }
+
+    .contact-details{
+        border-radius: 25px;
+        margin: auto;
+        width: 740px;
+        height: 300px;
+        padding: 10px;
+        background-color: rgb(255, 187, 0);
+    }
+}
+
