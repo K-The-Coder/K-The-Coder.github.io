@@ -1,5 +1,6 @@
 body{
     font-family:sans-serif;
+    background-color: rgb(238, 237, 237);
     margin: 0;
 }
 
@@ -67,7 +68,7 @@ p, ul{font-size: 25px;}
 
 .fa-facebook, .fa-github, .fa-linkedin{ color: black;}
 
-/* Mobile styling */
+/* Tablet screen styling */
 @media only screen and (max-width: 1080px){
     #nav{
         display: none;
@@ -104,8 +105,8 @@ p, ul{font-size: 25px;}
     .intro{
         border-radius: 10px;
         margin: auto;
-        width: 330px;
-        height: 740px;
+        width: 700px;
+        height: 640px;
         padding: 10px;
         background-color: rgb(211, 115, 36);
     }
@@ -113,8 +114,8 @@ p, ul{font-size: 25px;}
     .contact-details{
         border-radius: 10px;
         margin: auto;
-        width: 330px;
-        height: 300px;
+        width: 700px;
+        height: 270px;
         padding: 10px;
         background-color: rgb(255, 187, 0);
     }
@@ -128,4 +129,16 @@ p, ul{font-size: 25px;}
         margin-bottom: 100px;
     }
 }
+/* Phone screen styling */
+@media only screen and (max-width: 720px){
+    .mobile-nav-bar{width: 100%;}
+    .intro{
+        width: 330px;
+        height: 740px;
+    }
+    .contact-details{
+        width: 330px;
+        height: 300px;  
+    }
 
+}
